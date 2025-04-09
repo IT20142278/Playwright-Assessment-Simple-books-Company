@@ -15,17 +15,17 @@ This test case verifies that the mandatory field validations on the Primary Inco
 - Simple setup with Playwright Test Runner
 
 
-Project Structure
-=======================
-Simplebooks Assignment - Kasuni /
--├── page-objects/
--│   ├── LoginPage.ts
--│   └── IncomePage.ts
--└── tests/
-    -└── income-validation.spec.ts
+## Project Structure
 
-Test Scenario Function
-=======================
+Simplebooks Assignment - Kasuni /
+├── page-objects/
+│   ├── LoginPage.ts
+│   └── IncomePage.ts
+└── tests/
+    └── income-validation.spec.ts
+
+## Test Scenario Function
+
 Explanation: This script tests the Primary Income form functionality on the tax.simplebooks.com platform. It focuses on validating two critical scenarios related to the income form:
 1. Successful Login and Redirection to the Income Page:
 	 The script tests the login functionality by logging into the application with valid credentials. After a successful login, the script checks if the user is initially on the onboard page (which requires additional steps for setup), it simulates clicking the “Get Started” button, ensuring the user is then redirected to the income page.
@@ -36,7 +36,7 @@ Explanation: This script tests the Primary Income form functionality on the tax.
 	   o Amount field: Ensures the user cannot submit the form without entering an amount.
 	   o Description field: Ensures the user cannot submit the form without providing a description.
 
-Assumptions:
+## Assumptions:
 • The application has a login page at tax.simplebooks.com
 • Elements have appropriate selectors (IDs, classes, or text content)
 • The "Primary Income" form contains mandatory fields for Amount and Description.
