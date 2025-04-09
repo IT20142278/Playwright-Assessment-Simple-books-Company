@@ -18,11 +18,11 @@ This test case verifies that the mandatory field validations on the Primary Inco
 Project Structure
 =======================
 Simplebooks Assignment - Kasuni /
-├── page-objects/
-│   ├── LoginPage.ts
-│   └── IncomePage.ts
-└── tests/
-    └── income-validation.spec.ts
+-├── page-objects/
+-│   ├── LoginPage.ts
+-│   └── IncomePage.ts
+-└── tests/
+    -└── income-validation.spec.ts
 
 Test Scenario Function
 =======================
