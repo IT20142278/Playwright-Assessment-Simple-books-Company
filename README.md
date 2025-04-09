@@ -23,7 +23,7 @@ This test case verifies that the mandatory field validations on the Primary Inco
 	│   ├── LoginPage.ts
 	│   └── IncomePage.ts
 	└── tests/
-    	└── income-validation.spec.ts
+    	    └── income-validation.spec.ts
 
 ## Test Scenario Function
 
