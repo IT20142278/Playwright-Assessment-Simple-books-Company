@@ -17,12 +17,13 @@ This test case verifies that the mandatory field validations on the Primary Inco
 
 ## Project Structure
 
-Simplebooks Assignment - Kasuni /
-├── page-objects/
-│   ├── LoginPage.ts
-│   └── IncomePage.ts
-└── tests/
-    └── income-validation.spec.ts
+	Simplebooks Assignment - Kasuni /
+
+	├── page-objects/
+	│   ├── LoginPage.ts
+	│   └── IncomePage.ts
+	└── tests/
+    	└── income-validation.spec.ts
 
 ## Test Scenario Function
 
@@ -37,8 +38,8 @@ Explanation: This script tests the Primary Income form functionality on the tax.
 	   o Description field: Ensures the user cannot submit the form without providing a description.
 
 ## Assumptions:
-• The application has a login page at tax.simplebooks.com
-• Elements have appropriate selectors (IDs, classes, or text content)
-• The "Primary Income" form contains mandatory fields for Amount and Description.
-• The application properly displays validation error messages for missing mandatory fields.
-• After login, the user is redirected to the onboard page. (Then the script will trigger the redirection using the "Get Started" button.)
+- The application has a login page at tax.simplebooks.com
+- Elements have appropriate selectors (IDs, classes, or text content)
+- The "Primary Income" form contains mandatory fields for Amount and Description.
+- The application properly displays validation error messages for missing mandatory fields.
+- After login, the user is redirected to the onboard page. (Then the script will trigger the redirection using the "Get Started" button.)
