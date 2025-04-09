@@ -1,14 +1,13 @@
 # Playwright Test Automation (TypeScript)
-==========================================
+
 This repository contains automated end-to-end test scenarios using [Playwright](https://playwright.dev/) with TypeScript. It is designed to validate web application functionality through UI workflows, API validations, and data consistency checks. 
 
 ## Test Scenario: Primary Income Form mandatory field Validation
-=================================================================
 
 This test case verifies that the mandatory field validations on the Primary Income form are functioning correctly. The form should display clear and appropriate error messages when required fields are left empty.
 
 ## 🚀 Features
-=====================
+
 - Written in TypeScript
 - Cross-browser compatibility
 - End-to-end testing with Playwright
